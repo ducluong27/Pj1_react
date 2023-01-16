@@ -7,11 +7,11 @@ import DataList from './components/DataList';
 function App() {
 
   const [SV, setSV] = useState([]);
-  // console.log(SV.length);
+  console.log(SV);
   return (
     <div>
       <DataInput setSV = {setSV} SV = {SV}/>
-      <DataList listSV={SV} setSV = {setSV} listSV2={SV}/>
+      <DataList listSV={SV} setSV = {setSV}/>
     </div>
   );
 }

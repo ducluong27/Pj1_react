@@ -16,15 +16,15 @@ const DataInput = ({setSV, SV}) => {
                     <Form >
                         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                             <Form.Label>Họ và tên đệm</Form.Label>
-                            <Form.Control type="text" placeholder="Nguyễn Văn" onChange={(e)=>{setListInput({...listInput,firstName:e.target.value})}}/>
+                            <Form.Control type="text" placeholder="example: Nguyễn Văn" onChange={(e)=>{setListInput({...listInput,firstName:e.target.value})}}/>
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                             <Form.Label>Tên</Form.Label>
-                            <Form.Control type="text" placeholder="A" onChange={(e)=>{setListInput({...listInput,lastName:e.target.value})}}/>
+                            <Form.Control type="text" placeholder="example: A" onChange={(e)=>{setListInput({...listInput,lastName:e.target.value})}}/>
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                             <Form.Label>Điểm</Form.Label>
-                            <Form.Control type="number" placeholder="9" onChange={(e)=>{setListInput({...listInput,score:e.target.value})}} />
+                            <Form.Control type="number" placeholder="example: 9" onChange={(e)=>{setListInput({...listInput,score:e.target.value})}} />
                         </Form.Group>
                         <Button type='reset' variant="info" onClick={handleSendData}>Thêm sinh viên</Button>
                     </Form>
