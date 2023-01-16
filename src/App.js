@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { useState } from 'react';
 import './App.css';
+import DataInput from './components/DataInput';
+import DataList from './components/DataList';
 
 function App() {
+
+  const [SV, setSV] = useState([]);
+  // console.log(SV.length);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <DataInput setSV = {setSV} SV = {SV}/>
+      <DataList listSV={SV} setSV = {setSV} listSV2={SV}/>
     </div>
   );
 }
