@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ducluong27/Pj1_react.git/static/css/main.7dfd4bf7.css",
+    "main.js": "/ducluong27/Pj1_react.git/static/js/main.350bafd2.js",
+    "static/js/787.81f226d4.chunk.js": "/ducluong27/Pj1_react.git/static/js/787.81f226d4.chunk.js",
+    "index.html": "/ducluong27/Pj1_react.git/index.html",
+    "main.7dfd4bf7.css.map": "/ducluong27/Pj1_react.git/static/css/main.7dfd4bf7.css.map",
+    "main.350bafd2.js.map": "/ducluong27/Pj1_react.git/static/js/main.350bafd2.js.map",
+    "787.81f226d4.chunk.js.map": "/ducluong27/Pj1_react.git/static/js/787.81f226d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7dfd4bf7.css",
+    "static/js/main.350bafd2.js"
+  ]
+}
