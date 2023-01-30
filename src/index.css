@@ -11,6 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+<<<<<<< HEAD
 .red{
   color: red !important;
 }
+=======
+>>>>>>> 1db8863 (Initialize project using Create React App)
